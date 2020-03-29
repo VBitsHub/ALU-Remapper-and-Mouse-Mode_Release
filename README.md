@@ -46,13 +46,21 @@ What's new in the version.
 v1.3
 
 -Created a windows app rather than a DOS batch file, so users can click rather than using a keyboard.
+
 -Add an option to fix issues when copying files. The new option will use the windows takeown command to allow the current account full access to the coinops folders.
+
 -Minor fixes
+
 -Swap controllers due to ALU swapping controllers
+
 -Added the joystick mouse mode to this. Will create a startup shortcut and launch mouse mode
+
 -Add button to open the device and printers panel to see if ALU shows up and to be able to see if controls are defined correctly.
+
 -Add the option to copy the latest RetroFE to the core folder (as of 3/24/2020)
+
 -Added a new CoinOPS executable to just launch RetroFE without launching joytokey
+
 -Add a slightly changed layout to the CoinOPS theme
 
 v1.2
