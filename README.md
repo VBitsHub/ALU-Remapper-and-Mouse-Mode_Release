@@ -32,6 +32,7 @@ Special thanks to AtGames for an Awesome Arcade and the creators and members of 
 What's new in the version.
 
 v1.3
+
 -Created a windows app rather than a DOS batch file, so users can click rather than using a keyboard.
 -Add an option to fix issues when copying files. The new option will use the windows takeown command to allow the current account full access to the coinops folders.
 -Minor fixes
