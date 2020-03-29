@@ -29,16 +29,18 @@ Special thanks to AtGames for an Awesome Arcade and the creators and members of 
 
 3/27/2020 Release for the ALU CoinOPS joystick support
 
-###################
-# Installation
-###################
+-------------------
+- Installation
+-------------------
+
 Copy/Extract to the ROOT CoinOPS next folder and run the Restore AtGames USB.exe
 
 
 
-###################
-# What's New
-###################
+--------------------
+- What's New
+--------------------
+
 What's new in the version.
 
 v1.3
