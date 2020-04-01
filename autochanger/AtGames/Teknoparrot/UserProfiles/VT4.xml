@@ -82,20 +82,35 @@
         <IsAxisMinus>false</IsAxisMinus>
         <IsLeftTrigger>false</IsLeftTrigger>
         <IsRightTrigger>false</IsRightTrigger>
-        <ButtonCode>4096</ButtonCode>
+        <ButtonCode>32</ButtonCode>
         <IsButton>true</IsButton>
         <ButtonIndex>0</ButtonIndex>
         <XInputIndex>0</XInputIndex>
       </XInputButton>
       <InputMapping>Coin1</InputMapping>
       <AnalogType>None</AnalogType>
-      <BindNameXi>Input Device 0 A</BindNameXi>
-      <BindName>Input Device 0 A</BindName>
+      <BindNameXi>Input Device 0 Back</BindNameXi>
+      <BindName>Input Device 0 Back</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Coin 2</ButtonName>
+      <XInputButton>
+        <IsLeftThumbX>false</IsLeftThumbX>
+        <IsRightThumbX>false</IsRightThumbX>
+        <IsLeftThumbY>false</IsLeftThumbY>
+        <IsRightThumbY>false</IsRightThumbY>
+        <IsAxisMinus>false</IsAxisMinus>
+        <IsLeftTrigger>false</IsLeftTrigger>
+        <IsRightTrigger>false</IsRightTrigger>
+        <ButtonCode>32</ButtonCode>
+        <IsButton>true</IsButton>
+        <ButtonIndex>0</ButtonIndex>
+        <XInputIndex>0</XInputIndex>
+      </XInputButton>
       <InputMapping>Coin2</InputMapping>
       <AnalogType>None</AnalogType>
+      <BindNameXi>Input Device 0 Back</BindNameXi>
+      <BindName>Input Device 0 Back</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Player 1 Start</ButtonName>
@@ -227,18 +242,138 @@
         <IsAxisMinus>false</IsAxisMinus>
         <IsLeftTrigger>false</IsLeftTrigger>
         <IsRightTrigger>false</IsRightTrigger>
-        <ButtonCode>4096</ButtonCode>
+        <ButtonCode>8192</ButtonCode>
         <IsButton>true</IsButton>
         <ButtonIndex>0</ButtonIndex>
         <XInputIndex>0</XInputIndex>
       </XInputButton>
       <InputMapping>JvsTwoP1Button2</InputMapping>
       <AnalogType>None</AnalogType>
-      <BindNameXi>Input Device 0 A</BindNameXi>
-      <BindName>Input Device 0 A</BindName>
+      <BindNameXi>Input Device 0 B</BindNameXi>
+      <BindName>Input Device 0 B</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Player 1 Button 3</ButtonName>
+      <XInputButton>
+        <IsLeftThumbX>false</IsLeftThumbX>
+        <IsRightThumbX>false</IsRightThumbX>
+        <IsLeftThumbY>false</IsLeftThumbY>
+        <IsRightThumbY>false</IsRightThumbY>
+        <IsAxisMinus>false</IsAxisMinus>
+        <IsLeftTrigger>false</IsLeftTrigger>
+        <IsRightTrigger>true</IsRightTrigger>
+        <ButtonCode>0</ButtonCode>
+        <IsButton>false</IsButton>
+        <ButtonIndex>0</ButtonIndex>
+        <XInputIndex>0</XInputIndex>
+      </XInputButton>
+      <InputMapping>JvsTwoP1Button3</InputMapping>
+      <AnalogType>None</AnalogType>
+      <BindNameXi>Input Device 0 RightTrigger</BindNameXi>
+      <BindName>Input Device 0 RightTrigger</BindName>
+    </JoystickButtons>
+    <JoystickButtons>
+      <ButtonName>Player 2 Start</ButtonName>
+      <XInputButton>
+        <IsLeftThumbX>false</IsLeftThumbX>
+        <IsRightThumbX>false</IsRightThumbX>
+        <IsLeftThumbY>false</IsLeftThumbY>
+        <IsRightThumbY>false</IsRightThumbY>
+        <IsAxisMinus>false</IsAxisMinus>
+        <IsLeftTrigger>false</IsLeftTrigger>
+        <IsRightTrigger>false</IsRightTrigger>
+        <ButtonCode>16</ButtonCode>
+        <IsButton>true</IsButton>
+        <ButtonIndex>0</ButtonIndex>
+        <XInputIndex>1</XInputIndex>
+      </XInputButton>
+      <InputMapping>JvsTwoP2ButtonStart</InputMapping>
+      <AnalogType>None</AnalogType>
+      <BindNameXi>Input Device 1 Start</BindNameXi>
+      <BindName>Input Device 1 Start</BindName>
+    </JoystickButtons>
+    <JoystickButtons>
+      <ButtonName>Player 2 Up</ButtonName>
+      <XInputButton>
+        <IsLeftThumbX>false</IsLeftThumbX>
+        <IsRightThumbX>false</IsRightThumbX>
+        <IsLeftThumbY>true</IsLeftThumbY>
+        <IsRightThumbY>false</IsRightThumbY>
+        <IsAxisMinus>false</IsAxisMinus>
+        <IsLeftTrigger>false</IsLeftTrigger>
+        <IsRightTrigger>false</IsRightTrigger>
+        <ButtonCode>0</ButtonCode>
+        <IsButton>false</IsButton>
+        <ButtonIndex>0</ButtonIndex>
+        <XInputIndex>1</XInputIndex>
+      </XInputButton>
+      <InputMapping>JvsTwoP2ButtonUp</InputMapping>
+      <AnalogType>None</AnalogType>
+      <BindNameXi>Input Device 1 LeftThumbInput Device 1 Y+</BindNameXi>
+      <BindName>Input Device 1 LeftThumbInput Device 1 Y+</BindName>
+    </JoystickButtons>
+    <JoystickButtons>
+      <ButtonName>Player 2 Down</ButtonName>
+      <XInputButton>
+        <IsLeftThumbX>false</IsLeftThumbX>
+        <IsRightThumbX>false</IsRightThumbX>
+        <IsLeftThumbY>true</IsLeftThumbY>
+        <IsRightThumbY>false</IsRightThumbY>
+        <IsAxisMinus>true</IsAxisMinus>
+        <IsLeftTrigger>false</IsLeftTrigger>
+        <IsRightTrigger>false</IsRightTrigger>
+        <ButtonCode>0</ButtonCode>
+        <IsButton>false</IsButton>
+        <ButtonIndex>0</ButtonIndex>
+        <XInputIndex>1</XInputIndex>
+      </XInputButton>
+      <InputMapping>JvsTwoP2ButtonDown</InputMapping>
+      <AnalogType>None</AnalogType>
+      <BindNameXi>Input Device 1 LeftThumbInput Device 1 Y-</BindNameXi>
+      <BindName>Input Device 1 LeftThumbInput Device 1 Y-</BindName>
+    </JoystickButtons>
+    <JoystickButtons>
+      <ButtonName>Player 2 Left</ButtonName>
+      <XInputButton>
+        <IsLeftThumbX>true</IsLeftThumbX>
+        <IsRightThumbX>false</IsRightThumbX>
+        <IsLeftThumbY>false</IsLeftThumbY>
+        <IsRightThumbY>false</IsRightThumbY>
+        <IsAxisMinus>true</IsAxisMinus>
+        <IsLeftTrigger>false</IsLeftTrigger>
+        <IsRightTrigger>false</IsRightTrigger>
+        <ButtonCode>0</ButtonCode>
+        <IsButton>false</IsButton>
+        <ButtonIndex>0</ButtonIndex>
+        <XInputIndex>1</XInputIndex>
+      </XInputButton>
+      <InputMapping>JvsTwoP2ButtonLeft</InputMapping>
+      <AnalogType>None</AnalogType>
+      <BindNameXi>Input Device 1 LeftThumbInput Device 1 X-</BindNameXi>
+      <BindName>Input Device 1 LeftThumbInput Device 1 X-</BindName>
+    </JoystickButtons>
+    <JoystickButtons>
+      <ButtonName>Player 2 Right</ButtonName>
+      <XInputButton>
+        <IsLeftThumbX>true</IsLeftThumbX>
+        <IsRightThumbX>false</IsRightThumbX>
+        <IsLeftThumbY>false</IsLeftThumbY>
+        <IsRightThumbY>false</IsRightThumbY>
+        <IsAxisMinus>false</IsAxisMinus>
+        <IsLeftTrigger>false</IsLeftTrigger>
+        <IsRightTrigger>false</IsRightTrigger>
+        <ButtonCode>0</ButtonCode>
+        <IsButton>false</IsButton>
+        <ButtonIndex>0</ButtonIndex>
+        <XInputIndex>1</XInputIndex>
+      </XInputButton>
+      <InputMapping>JvsTwoP2ButtonRight</InputMapping>
+      <AnalogType>None</AnalogType>
+      <BindNameXi>Input Device 1 LeftThumbInput Device 1 X+</BindNameXi>
+      <BindName>Input Device 1 LeftThumbInput Device 1 X+</BindName>
+    </JoystickButtons>
+    <JoystickButtons>
+      <ButtonName>Player 2 Button 1</ButtonName>
       <XInputButton>
         <IsLeftThumbX>false</IsLeftThumbX>
         <IsRightThumbX>false</IsRightThumbX>
@@ -250,52 +385,52 @@
         <ButtonCode>4096</ButtonCode>
         <IsButton>true</IsButton>
         <ButtonIndex>0</ButtonIndex>
-        <XInputIndex>0</XInputIndex>
+        <XInputIndex>1</XInputIndex>
       </XInputButton>
-      <InputMapping>JvsTwoP1Button3</InputMapping>
-      <AnalogType>None</AnalogType>
-      <BindNameXi>Input Device 0 A</BindNameXi>
-      <BindName>Input Device 0 A</BindName>
-    </JoystickButtons>
-    <JoystickButtons>
-      <ButtonName>Player 2 Start</ButtonName>
-      <InputMapping>JvsTwoP2ButtonStart</InputMapping>
-      <AnalogType>None</AnalogType>
-    </JoystickButtons>
-    <JoystickButtons>
-      <ButtonName>Player 2 Up</ButtonName>
-      <InputMapping>JvsTwoP2ButtonUp</InputMapping>
-      <AnalogType>None</AnalogType>
-    </JoystickButtons>
-    <JoystickButtons>
-      <ButtonName>Player 2 Down</ButtonName>
-      <InputMapping>JvsTwoP2ButtonDown</InputMapping>
-      <AnalogType>None</AnalogType>
-    </JoystickButtons>
-    <JoystickButtons>
-      <ButtonName>Player 2 Left</ButtonName>
-      <InputMapping>JvsTwoP2ButtonLeft</InputMapping>
-      <AnalogType>None</AnalogType>
-    </JoystickButtons>
-    <JoystickButtons>
-      <ButtonName>Player 2 Right</ButtonName>
-      <InputMapping>JvsTwoP2ButtonRight</InputMapping>
-      <AnalogType>None</AnalogType>
-    </JoystickButtons>
-    <JoystickButtons>
-      <ButtonName>Player 2 Button 1</ButtonName>
       <InputMapping>JvsTwoP2Button1</InputMapping>
       <AnalogType>None</AnalogType>
+      <BindNameXi>Input Device 1 A</BindNameXi>
+      <BindName>Input Device 1 A</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Player 2 Button 2</ButtonName>
+      <XInputButton>
+        <IsLeftThumbX>false</IsLeftThumbX>
+        <IsRightThumbX>false</IsRightThumbX>
+        <IsLeftThumbY>false</IsLeftThumbY>
+        <IsRightThumbY>false</IsRightThumbY>
+        <IsAxisMinus>false</IsAxisMinus>
+        <IsLeftTrigger>false</IsLeftTrigger>
+        <IsRightTrigger>false</IsRightTrigger>
+        <ButtonCode>8192</ButtonCode>
+        <IsButton>true</IsButton>
+        <ButtonIndex>0</ButtonIndex>
+        <XInputIndex>1</XInputIndex>
+      </XInputButton>
       <InputMapping>JvsTwoP2Button2</InputMapping>
       <AnalogType>None</AnalogType>
+      <BindNameXi>Input Device 1 B</BindNameXi>
+      <BindName>Input Device 1 B</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Player 2 Button 3</ButtonName>
+      <XInputButton>
+        <IsLeftThumbX>false</IsLeftThumbX>
+        <IsRightThumbX>false</IsRightThumbX>
+        <IsLeftThumbY>false</IsLeftThumbY>
+        <IsRightThumbY>false</IsRightThumbY>
+        <IsAxisMinus>false</IsAxisMinus>
+        <IsLeftTrigger>false</IsLeftTrigger>
+        <IsRightTrigger>true</IsRightTrigger>
+        <ButtonCode>0</ButtonCode>
+        <IsButton>false</IsButton>
+        <ButtonIndex>0</ButtonIndex>
+        <XInputIndex>1</XInputIndex>
+      </XInputButton>
       <InputMapping>JvsTwoP2Button3</InputMapping>
       <AnalogType>None</AnalogType>
+      <BindNameXi>Input Device 1 RightTrigger</BindNameXi>
+      <BindName>Input Device 1 RightTrigger</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Player 3 Start</ButtonName>

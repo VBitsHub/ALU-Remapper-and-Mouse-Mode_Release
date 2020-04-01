@@ -48,13 +48,13 @@
     <FieldInformation>
       <CategoryName>General</CategoryName>
       <FieldName>ResolutionWidth</FieldName>
-      <FieldValue>3840</FieldValue>
+      <FieldValue>1920</FieldValue>
       <FieldType>Text</FieldType>
     </FieldInformation>
     <FieldInformation>
       <CategoryName>General</CategoryName>
       <FieldName>ResolutionHeight</FieldName>
-      <FieldValue>2160</FieldValue>
+      <FieldValue>1080</FieldValue>
       <FieldType>Text</FieldType>
     </FieldInformation>
     <FieldInformation>
@@ -130,7 +130,7 @@
         <IsRightThumbX>false</IsRightThumbX>
         <IsLeftThumbY>false</IsLeftThumbY>
         <IsRightThumbY>false</IsRightThumbY>
-        <IsAxisMinus>false</IsAxisMinus>
+        <IsAxisMinus>true</IsAxisMinus>
         <IsLeftTrigger>false</IsLeftTrigger>
         <IsRightTrigger>false</IsRightTrigger>
         <ButtonCode>0</ButtonCode>
@@ -140,8 +140,8 @@
       </XInputButton>
       <InputMapping>Analog0</InputMapping>
       <AnalogType>Wheel</AnalogType>
-      <BindNameXi>Input Device 0 LeftThumbInput Device 0 X+</BindNameXi>
-      <BindName>Input Device 0 LeftThumbInput Device 0 X+</BindName>
+      <BindNameXi>Input Device 0 LeftThumbInput Device 0 X-</BindNameXi>
+      <BindName>Input Device 0 LeftThumbInput Device 0 X-</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Gas</ButtonName>
@@ -208,40 +208,40 @@
       <XInputButton>
         <IsLeftThumbX>false</IsLeftThumbX>
         <IsRightThumbX>false</IsRightThumbX>
-        <IsLeftThumbY>false</IsLeftThumbY>
+        <IsLeftThumbY>true</IsLeftThumbY>
         <IsRightThumbY>false</IsRightThumbY>
         <IsAxisMinus>false</IsAxisMinus>
-        <IsLeftTrigger>true</IsLeftTrigger>
+        <IsLeftTrigger>false</IsLeftTrigger>
         <IsRightTrigger>false</IsRightTrigger>
         <ButtonCode>0</ButtonCode>
         <IsButton>false</IsButton>
         <ButtonIndex>0</ButtonIndex>
-        <XInputIndex>0</XInputIndex>
+        <XInputIndex>1</XInputIndex>
       </XInputButton>
       <InputMapping>P1ButtonUp</InputMapping>
       <AnalogType>None</AnalogType>
-      <BindNameXi>Input Device 0 LeftTrigger</BindNameXi>
-      <BindName>Input Device 0 LeftTrigger</BindName>
+      <BindNameXi>Input Device 1 LeftThumbInput Device 1 Y+</BindNameXi>
+      <BindName>Input Device 1 LeftThumbInput Device 1 Y+</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Menu Down</ButtonName>
       <XInputButton>
         <IsLeftThumbX>false</IsLeftThumbX>
         <IsRightThumbX>false</IsRightThumbX>
-        <IsLeftThumbY>false</IsLeftThumbY>
+        <IsLeftThumbY>true</IsLeftThumbY>
         <IsRightThumbY>false</IsRightThumbY>
-        <IsAxisMinus>false</IsAxisMinus>
+        <IsAxisMinus>true</IsAxisMinus>
         <IsLeftTrigger>false</IsLeftTrigger>
-        <IsRightTrigger>true</IsRightTrigger>
+        <IsRightTrigger>false</IsRightTrigger>
         <ButtonCode>0</ButtonCode>
         <IsButton>false</IsButton>
         <ButtonIndex>0</ButtonIndex>
-        <XInputIndex>0</XInputIndex>
+        <XInputIndex>1</XInputIndex>
       </XInputButton>
       <InputMapping>P1ButtonDown</InputMapping>
       <AnalogType>None</AnalogType>
-      <BindNameXi>Input Device 0 RightTrigger</BindNameXi>
-      <BindName>Input Device 0 RightTrigger</BindName>
+      <BindNameXi>Input Device 1 LeftThumbInput Device 1 Y-</BindNameXi>
+      <BindName>Input Device 1 LeftThumbInput Device 1 Y-</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Enter Switch</ButtonName>

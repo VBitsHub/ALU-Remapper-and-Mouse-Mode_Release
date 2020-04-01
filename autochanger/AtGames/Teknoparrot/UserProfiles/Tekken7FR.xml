@@ -245,7 +245,7 @@
     </JoystickButtons>
   </JoystickButtons>
   <EmulationProfile>SegaJvs</EmulationProfile>
-  <GameProfileRevision>3</GameProfileRevision>
+  <GameProfileRevision>4</GameProfileRevision>
   <HasSeparateTestMode>false</HasSeparateTestMode>
   <Is64Bit>true</Is64Bit>
   <EmulatorType>OpenParrot</EmulatorType>
@@ -255,4 +255,5 @@
   <msysType>0</msysType>
   <InvertedMouseAxis>false</InvertedMouseAxis>
   <DevOnly>false</DevOnly>
+  <ExecutableName>TekkenGame-Win64-Shipping.exe</ExecutableName>
 </GameProfile>

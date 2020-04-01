@@ -71,12 +71,12 @@
         <ButtonCode>32</ButtonCode>
         <IsButton>true</IsButton>
         <ButtonIndex>0</ButtonIndex>
-        <XInputIndex>1</XInputIndex>
+        <XInputIndex>0</XInputIndex>
       </XInputButton>
       <InputMapping>Coin2</InputMapping>
       <AnalogType>None</AnalogType>
-      <BindNameXi>Input Device 1 Back</BindNameXi>
-      <BindName>Input Device 1 Back</BindName>
+      <BindNameXi>Input Device 0 Back</BindNameXi>
+      <BindName>Input Device 0 Back</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Player 1 Start</ButtonName>

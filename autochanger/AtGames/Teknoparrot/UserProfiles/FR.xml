@@ -128,23 +128,43 @@
       <XInputButton>
         <IsLeftThumbX>false</IsLeftThumbX>
         <IsRightThumbX>false</IsRightThumbX>
-        <IsLeftThumbY>false</IsLeftThumbY>
+        <IsLeftThumbY>true</IsLeftThumbY>
         <IsRightThumbY>false</IsRightThumbY>
         <IsAxisMinus>false</IsAxisMinus>
         <IsLeftTrigger>false</IsLeftTrigger>
         <IsRightTrigger>false</IsRightTrigger>
-        <ButtonCode>256</ButtonCode>
-        <IsButton>true</IsButton>
+        <ButtonCode>0</ButtonCode>
+        <IsButton>false</IsButton>
         <ButtonIndex>0</ButtonIndex>
-        <XInputIndex>0</XInputIndex>
+        <XInputIndex>1</XInputIndex>
       </XInputButton>
       <InputMapping>P1Button1</InputMapping>
       <AnalogType>None</AnalogType>
-      <BindNameXi>Input Device 0 LeftShoulder</BindNameXi>
-      <BindName>Input Device 0 LeftShoulder</BindName>
+      <BindNameXi>Input Device 1 LeftThumbInput Device 1 Y+</BindNameXi>
+      <BindName>Input Device 1 LeftThumbInput Device 1 Y+</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Shift Down</ButtonName>
+      <XInputButton>
+        <IsLeftThumbX>false</IsLeftThumbX>
+        <IsRightThumbX>false</IsRightThumbX>
+        <IsLeftThumbY>true</IsLeftThumbY>
+        <IsRightThumbY>false</IsRightThumbY>
+        <IsAxisMinus>true</IsAxisMinus>
+        <IsLeftTrigger>false</IsLeftTrigger>
+        <IsRightTrigger>false</IsRightTrigger>
+        <ButtonCode>0</ButtonCode>
+        <IsButton>false</IsButton>
+        <ButtonIndex>0</ButtonIndex>
+        <XInputIndex>1</XInputIndex>
+      </XInputButton>
+      <InputMapping>P1Button2</InputMapping>
+      <AnalogType>None</AnalogType>
+      <BindNameXi>Input Device 1 LeftThumbInput Device 1 Y-</BindNameXi>
+      <BindName>Input Device 1 LeftThumbInput Device 1 Y-</BindName>
+    </JoystickButtons>
+    <JoystickButtons>
+      <ButtonName>View Change</ButtonName>
       <XInputButton>
         <IsLeftThumbX>false</IsLeftThumbX>
         <IsRightThumbX>false</IsRightThumbX>
@@ -158,30 +178,10 @@
         <ButtonIndex>0</ButtonIndex>
         <XInputIndex>0</XInputIndex>
       </XInputButton>
-      <InputMapping>P1Button2</InputMapping>
+      <InputMapping>P1Button3</InputMapping>
       <AnalogType>None</AnalogType>
       <BindNameXi>Input Device 0 RightShoulder</BindNameXi>
       <BindName>Input Device 0 RightShoulder</BindName>
-    </JoystickButtons>
-    <JoystickButtons>
-      <ButtonName>View Change</ButtonName>
-      <XInputButton>
-        <IsLeftThumbX>false</IsLeftThumbX>
-        <IsRightThumbX>false</IsRightThumbX>
-        <IsLeftThumbY>false</IsLeftThumbY>
-        <IsRightThumbY>false</IsRightThumbY>
-        <IsAxisMinus>false</IsAxisMinus>
-        <IsLeftTrigger>false</IsLeftTrigger>
-        <IsRightTrigger>false</IsRightTrigger>
-        <ButtonCode>4096</ButtonCode>
-        <IsButton>true</IsButton>
-        <ButtonIndex>0</ButtonIndex>
-        <XInputIndex>0</XInputIndex>
-      </XInputButton>
-      <InputMapping>P1Button3</InputMapping>
-      <AnalogType>None</AnalogType>
-      <BindNameXi>Input Device 0 A</BindNameXi>
-      <BindName>Input Device 0 A</BindName>
     </JoystickButtons>
   </JoystickButtons>
   <EmulationProfile>EuropaRFordRacing</EmulationProfile>

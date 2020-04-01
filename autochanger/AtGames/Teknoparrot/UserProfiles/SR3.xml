@@ -131,17 +131,17 @@
         <IsRightThumbY>false</IsRightThumbY>
         <IsAxisMinus>false</IsAxisMinus>
         <IsLeftTrigger>false</IsLeftTrigger>
-        <IsRightTrigger>true</IsRightTrigger>
-        <ButtonCode>0</ButtonCode>
-        <IsButton>false</IsButton>
+        <IsRightTrigger>false</IsRightTrigger>
+        <ButtonCode>4096</ButtonCode>
+        <IsButton>true</IsButton>
         <ButtonIndex>0</ButtonIndex>
         <XInputIndex>0</XInputIndex>
       </XInputButton>
       <InputMapping>Analog2</InputMapping>
       <AnalogType>Gas</AnalogType>
       <BindNameDi>Z-</BindNameDi>
-      <BindNameXi>Input Device 0 RightTrigger</BindNameXi>
-      <BindName>Input Device 0 RightTrigger</BindName>
+      <BindNameXi>Input Device 0 A</BindNameXi>
+      <BindName>Input Device 0 A</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Brake</ButtonName>
@@ -160,18 +160,18 @@
         <IsLeftThumbY>false</IsLeftThumbY>
         <IsRightThumbY>false</IsRightThumbY>
         <IsAxisMinus>false</IsAxisMinus>
-        <IsLeftTrigger>true</IsLeftTrigger>
+        <IsLeftTrigger>false</IsLeftTrigger>
         <IsRightTrigger>false</IsRightTrigger>
-        <ButtonCode>0</ButtonCode>
-        <IsButton>false</IsButton>
+        <ButtonCode>8192</ButtonCode>
+        <IsButton>true</IsButton>
         <ButtonIndex>0</ButtonIndex>
         <XInputIndex>0</XInputIndex>
       </XInputButton>
       <InputMapping>Analog4</InputMapping>
       <AnalogType>Brake</AnalogType>
       <BindNameDi>Z+</BindNameDi>
-      <BindNameXi>Input Device 0 LeftTrigger</BindNameXi>
-      <BindName>Input Device 0 LeftTrigger</BindName>
+      <BindNameXi>Input Device 0 B</BindNameXi>
+      <BindName>Input Device 0 B</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Shift up</ButtonName>
@@ -187,21 +187,21 @@
       <XInputButton>
         <IsLeftThumbX>false</IsLeftThumbX>
         <IsRightThumbX>false</IsRightThumbX>
-        <IsLeftThumbY>false</IsLeftThumbY>
-        <IsRightThumbY>true</IsRightThumbY>
+        <IsLeftThumbY>true</IsLeftThumbY>
+        <IsRightThumbY>false</IsRightThumbY>
         <IsAxisMinus>false</IsAxisMinus>
         <IsLeftTrigger>false</IsLeftTrigger>
         <IsRightTrigger>false</IsRightTrigger>
         <ButtonCode>0</ButtonCode>
         <IsButton>false</IsButton>
         <ButtonIndex>0</ButtonIndex>
-        <XInputIndex>0</XInputIndex>
+        <XInputIndex>1</XInputIndex>
       </XInputButton>
       <InputMapping>P1Button1</InputMapping>
       <AnalogType>None</AnalogType>
       <BindNameDi>RotationY-</BindNameDi>
-      <BindNameXi>Input Device 0 RightThumbInput Device 0 Y+</BindNameXi>
-      <BindName>Input Device 0 RightThumbInput Device 0 Y+</BindName>
+      <BindNameXi>Input Device 1 LeftThumbInput Device 1 Y+</BindNameXi>
+      <BindName>Input Device 1 LeftThumbInput Device 1 Y+</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Shift Down</ButtonName>
@@ -217,21 +217,21 @@
       <XInputButton>
         <IsLeftThumbX>false</IsLeftThumbX>
         <IsRightThumbX>false</IsRightThumbX>
-        <IsLeftThumbY>false</IsLeftThumbY>
-        <IsRightThumbY>true</IsRightThumbY>
+        <IsLeftThumbY>true</IsLeftThumbY>
+        <IsRightThumbY>false</IsRightThumbY>
         <IsAxisMinus>true</IsAxisMinus>
         <IsLeftTrigger>false</IsLeftTrigger>
         <IsRightTrigger>false</IsRightTrigger>
         <ButtonCode>0</ButtonCode>
         <IsButton>false</IsButton>
         <ButtonIndex>0</ButtonIndex>
-        <XInputIndex>0</XInputIndex>
+        <XInputIndex>1</XInputIndex>
       </XInputButton>
       <InputMapping>P1Button2</InputMapping>
       <AnalogType>None</AnalogType>
       <BindNameDi>RotationY+</BindNameDi>
-      <BindNameXi>Input Device 0 RightThumbInput Device 0 Y-</BindNameXi>
-      <BindName>Input Device 0 RightThumbInput Device 0 Y-</BindName>
+      <BindNameXi>Input Device 1 LeftThumbInput Device 1 Y-</BindNameXi>
+      <BindName>Input Device 1 LeftThumbInput Device 1 Y-</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>View Change</ButtonName>
@@ -252,7 +252,7 @@
         <IsAxisMinus>false</IsAxisMinus>
         <IsLeftTrigger>false</IsLeftTrigger>
         <IsRightTrigger>false</IsRightTrigger>
-        <ButtonCode>-32768</ButtonCode>
+        <ButtonCode>256</ButtonCode>
         <IsButton>true</IsButton>
         <ButtonIndex>0</ButtonIndex>
         <XInputIndex>0</XInputIndex>
@@ -260,8 +260,8 @@
       <InputMapping>P1Button3</InputMapping>
       <AnalogType>None</AnalogType>
       <BindNameDi>Buttons3</BindNameDi>
-      <BindNameXi>Input Device 0 Y</BindNameXi>
-      <BindName>Input Device 0 Y</BindName>
+      <BindNameXi>Input Device 0 LeftShoulder</BindNameXi>
+      <BindName>Input Device 0 LeftShoulder</BindName>
     </JoystickButtons>
     <JoystickButtons>
       <ButtonName>Handbrake</ButtonName>
@@ -282,7 +282,7 @@
         <IsAxisMinus>false</IsAxisMinus>
         <IsLeftTrigger>false</IsLeftTrigger>
         <IsRightTrigger>false</IsRightTrigger>
-        <ButtonCode>8192</ButtonCode>
+        <ButtonCode>512</ButtonCode>
         <IsButton>true</IsButton>
         <ButtonIndex>0</ButtonIndex>
         <XInputIndex>0</XInputIndex>
@@ -290,8 +290,8 @@
       <InputMapping>P1Button4</InputMapping>
       <AnalogType>None</AnalogType>
       <BindNameDi>Buttons1</BindNameDi>
-      <BindNameXi>Input Device 0 B</BindNameXi>
-      <BindName>Input Device 0 B</BindName>
+      <BindNameXi>Input Device 0 RightShoulder</BindNameXi>
+      <BindName>Input Device 0 RightShoulder</BindName>
     </JoystickButtons>
   </JoystickButtons>
   <EmulationProfile>EuropaRSegaRally3</EmulationProfile>
