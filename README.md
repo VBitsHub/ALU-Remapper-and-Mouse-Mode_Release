@@ -43,6 +43,10 @@ Copy/Extract to the ROOT CoinOPS next folder and run the Restore AtGames USB.exe
 
 What's new in the version.
 
+v1.3 Rev B
+- Option [D] now uses the layoutfast.xml in the Worlds folder.
+- Option [E] has been disabled as it is redudant when using [G]
+
 v1.3
 
 - Created a windows app rather than a DOS batch file, so users can click rather than using a keyboard.
