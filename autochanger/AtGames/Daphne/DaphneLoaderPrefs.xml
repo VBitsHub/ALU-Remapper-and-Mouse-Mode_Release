@@ -1,0 +1,596 @@
+<prefs_ver_30.1.2>
+	<globals tab="3" >
+		<btg ul_bytes_per_s="0" dl_bytes_per_s="0" piece_pri_idx="0" max_peers="50" bt_listen_port="0" firewall_test_failed="0" >
+		</btg>
+	</globals>
+	<games selected="G_LAIR">
+		<game id="G_ASTRON" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_BADLANDS" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_BEGA" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_CLIFF" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_COBRA" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_LAIR" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_LAIR2" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_ESH" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_GALAXY" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_GPWORLD" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_INTERSTELLAR" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_MACH3" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_ROADBLASTER" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_ACE" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_BLAZER" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_SDQ" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_TQ" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+		<game id="G_UVT" >
+			<video scrnsize_idx="0" hwaccel_idx="0" rotate_idx="0" />
+			<audio sound_idx="0" sndbuf_idx="0" volume_vldp_idx="0" volume_nonvldp_idx="0" />
+			<input>
+				<switch id="KEY_UP" inp0="273" name0="up" inp1="264" name1="[8]" inp2="0" name2="" />
+				<switch id="KEY_LEFT" inp0="276" name0="left" inp1="260" name1="[4]" inp2="0" name2="" />
+				<switch id="KEY_DOWN" inp0="274" name0="down" inp1="258" name1="[2]" inp2="0" name2="" />
+				<switch id="KEY_RIGHT" inp0="275" name0="right" inp1="262" name1="[6]" inp2="0" name2="" />
+				<switch id="KEY_START1" inp0="49" name0="1" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_START2" inp0="50" name0="2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_BUTTON1" inp0="32" name0="space" inp1="306" name1="left ctrl" inp2="1" name2="1" />
+				<switch id="KEY_BUTTON2" inp0="308" name0="left alt" inp1="0" name1="" inp2="2" name2="2" />
+				<switch id="KEY_BUTTON3" inp0="304" name0="left shift" inp1="0" name1="" inp2="6" name2="6" />
+				<switch id="KEY_COIN1" inp0="53" name0="5" inp1="99" name1="c" inp2="10" name2="10" />
+				<switch id="KEY_COIN2" inp0="54" name0="6" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL1" inp0="267" name0="[/]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL2" inp0="268" name0="[*]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SKILL3" inp0="269" name0="[-]" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SERVICE" inp0="57" name0="9" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TEST" inp0="283" name0="f2" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_RESET" inp0="284" name0="f3" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_SCREENSHOT" inp0="293" name0="f12" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_QUIT" inp0="27" name0="escape" inp1="113" name1="q" inp2="17" name2="17" />
+				<switch id="KEY_PAUSE" inp0="112" name0="p" inp1="0" name1="" inp2="0" name2="" />
+				<switch id="KEY_TILT" inp0="116" name0="t" inp1="0" name1="" inp2="0" name2="" />
+			</input>
+			<advanced adv_latency="0" adv_seek_delay="0" adv_custom_cmd_line="" />
+		</game>
+	</games>
+	<discs>
+		<disc id="D_ASTRON" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_BADLANDS" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_BEGA" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_CLIFF" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_COBRA" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_LAIR83" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_DL_PAL" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_DL_PAL_SC" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_LAIR_LE" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_LAIR2" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_LAIR2_1ST" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_LAIR2_SPAN" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_ESH" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_ESHJAP" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_GALAXY" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_GPWORLD" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_INTERSTELLAR" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_MACH3" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_ROADBLASTER" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_ACE83" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_ACE_PAL" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_ACE_PAL_SC" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_ACE91" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_SDQ" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_TQ" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+		<disc id="D_UVT" ldp_type="virtual" autodownload="1" framefile="" altaudio="" SLdpTypeIdx="0" port="0" LdpBaudIdx="0" />
+	</discs>
+	<cfg name="astron">
+	</cfg>
+	<cfg name="badlands">
+	</cfg>
+	<cfg name="badlandp">
+	</cfg>
+	<cfg name="bega">
+	</cfg>
+	<cfg name="cliff">
+	</cfg>
+	<cfg name="cobra">
+	</cfg>
+	<cfg name="cobraab">
+	</cfg>
+	<cfg name="cobram3">
+	</cfg>
+	<cfg name="cobraconv">
+	</cfg>
+	<cfg name="lair_f">
+	</cfg>
+	<cfg name="lairalt">
+	</cfg>
+	<cfg name="laireuro">
+	</cfg>
+	<cfg name="lairita">
+	</cfg>
+	<cfg name="dle2">
+	</cfg>
+	<cfg name="dle11">
+	</cfg>
+	<cfg name="dl2">
+	</cfg>
+	<cfg name="esh">
+	</cfg>
+	<cfg name="gtg">
+	</cfg>
+	<cfg name="gpworld">
+	</cfg>
+	<cfg name="interstellar">
+	</cfg>
+	<cfg name="mach3">
+	</cfg>
+	<cfg name="roadblaster">
+	</cfg>
+	<cfg name="ace">
+	</cfg>
+	<cfg name="sae">
+	</cfg>
+	<cfg name="sdq">
+	</cfg>
+	<cfg name="tq">
+	</cfg>
+	<cfg name="uvt">
+	</cfg>
+	<cfg name="test">
+	</cfg>
+</prefs_ver_30.1.2>

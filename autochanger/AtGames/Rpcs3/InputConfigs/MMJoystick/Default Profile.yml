@@ -2,10 +2,10 @@ Left Stick Left: POV Left
 Left Stick Down: POV Down
 Left Stick Right: POV Right
 Left Stick Up: POV Up
-Right Stick Left: Button 17
-Right Stick Down: Button 16
-Right Stick Right: Button 18
-Right Stick Up: Button 15
+Right Stick Left: Z-
+Right Stick Down: R-
+Right Stick Right: Z+
+Right Stick Up: R+
 Start: Button 10
 Select: Button 9
 PS Button: Button 17
@@ -13,16 +13,16 @@ Square: Button 3
 Cross: Button 1
 Circle: Button 2
 Triangle: Button 4
-Left: Button 17
-Down: Button 16
-Right: Button 18
-Up: Button 15
+Left: POV Left
+Down: POV Down
+Right: POV Right
+Up: POV Up
 R1: Button 6
 R2: Button 6
-R3: Button 24
+R3: Button 12
 L1: Button 5
 L2: Button 5
-L3: Button 26
+L3: Button 11
 Left Stick Deadzone: 0
 Right Stick Deadzone: 0
 Left Trigger Threshold: 0

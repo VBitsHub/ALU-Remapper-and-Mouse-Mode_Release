@@ -43,6 +43,10 @@ Copy/Extract to the ROOT CoinOPS next folder and run the Restore AtGames USB.exe
 
 What's new in the version.
 
+v1.4 (5/7/2020)
+- Fixed issues for some users where can't copy files
+- Added control scheme for Daphane
+
 v1.3 Rev B (4/2/2020)
 - Option [D] now uses the layoutfast.xml in the Worlds folder.
 - Option [E] has been disabled as it is redudant when using [G]
